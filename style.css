@@ -55,6 +55,10 @@ li {
     flex-direction: column;
 }
 
+.link:not(:first-child) {
+    margin-left: 20px;
+}
+
 .publication {
     font-weight: 300;
 }
