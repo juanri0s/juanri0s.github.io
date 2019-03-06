@@ -1,84 +1,83 @@
 div {
-    display: block;
+  display: block;
 }
 
 body {
-    background: #3F4045;
-    color: #fff;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 1em;
-    display: flex;
-    justify-content: center;
+  background: #3F4045;
+  color: #fff;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1em;
+  display: flex;
+  justify-content: center;
 }
 
 h1 {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 h2 {
-    font-weight: 300;
+  font-weight: 300;
 }
 
 h3 {
-    font-weight: 100;
+  font-weight: 100;
 }
 
 li {
-    list-style: none;
-    margin-bottom: 30px;
+  list-style: none;
+  margin-bottom: 30px;
 }
 
 .links {
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 
 .container {
-    max-width: 650px;
+  max-width: 650px;
 }
 
 .timeline {
-    padding: 0;
+  padding: 0;
 }
 
 .work {
-    display: flex;
-    justify-content: flex-start;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .left {
-    font-weight: 300;
-    min-width: 150px;
+  font-weight: 300;
+  min-width: 150px;
 }
 
 .timeline li .right {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .link:not(:first-child) {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
 .publication {
-    font-weight: 300;
+  font-weight: 300;
 }
 
-.line {  
-    border: 1px dashed white;
-    border-color: #ff0099;
-    margin-bottom: 1.4em;
-    min-width: 150px;
+.line {
+  border: 1px dashed white;
+  border-color: #ff0099;
+  margin-bottom: 1.4em;
+  min-width: 150px;
 }
 
 .name {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .title {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 .link {
-    color: #fff;
+  color: #fff;
 }
-
