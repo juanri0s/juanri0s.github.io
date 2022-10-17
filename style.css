@@ -51,7 +51,6 @@ li {
 }
 
 .timeline li .right {
-  display: flex;
   flex-direction: column;
 }
 
@@ -78,6 +77,6 @@ li {
   margin-top: 0;
 }
 
-.link {
+a {
   color: #fff;
 }
